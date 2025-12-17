@@ -18,7 +18,7 @@ This guide explains the steps to configure a **private PostgreSQL VM** to be use
 ## Step 1: SSH into the PostgreSQL VM
 
 ```bash
-ssh rocky@<POSTGRESQL_VM_PRIVATE_IP>
+ssh -i ~/.ssh/id_ed25519 rocky@<POSTGRESQL_VM_PRIVATE_IP>
 ```
 
 Replace `<POSTGRESQL_VM_PRIVATE_IP>` with the private IP of your PostgreSQL VM (e.g., `172.18.41.113`).
