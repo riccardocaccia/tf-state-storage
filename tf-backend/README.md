@@ -90,7 +90,7 @@ You should connect successfully without errors.
 
 ---
 
-## ✅ Notes
+## Notes
 
 * The PostgreSQL VM must be **running and accessible** before initializing the Terraform backend.
 * Always use the **private IP** for secure internal traffic.
