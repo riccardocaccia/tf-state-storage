@@ -10,10 +10,6 @@ sudo vi /var/lib/pgsql/data/pg_hba.conf
 3️⃣ Aggiungi ESATTAMENTE questa riga (in fondo):
 host    tf_state    tf_user    172.18.41.120/32    md5
 
-
-(se vuoi essere meno pignolo temporaneamente):
-[Uploading WeBeep POLIMI.url…]()
-
 host    all         all        172.18.41.120/32    md5
 
 4️⃣ Riavvia PostgreSQL
