@@ -21,7 +21,7 @@ This guide explains the steps to configure a **private PostgreSQL VM** to be use
 ssh -i ~/.ssh/id_ed25519 rocky@<POSTGRESQL_VM_PRIVATE_IP>
 ```
 
-Replace `<POSTGRESQL_VM_PRIVATE_IP>` with the private IP of your PostgreSQL VM (e.g., `172.18.41.113`).
+Replace `<POSTGRESQL_VM_PRIVATE_IP>` with the private IP of your PostgreSQL VM .
 
 ---
 
@@ -47,7 +47,7 @@ host    tf_state    tf_user    <TERRAFORM_CONTROLLER_PRIVATE_IP>/32    md5
 host    all         all        <TERRAFORM_CONTROLLER_PRIVATE_IP>/32    md5
 ```
 
-* Replace `<TERRAFORM_CONTROLLER_PRIVATE_IP>` with the private IP of your Terraform controller/Bastion (e.g., `172.18.41.120`).
+* Replace `<TERRAFORM_CONTROLLER_PRIVATE_IP>` with the private IP of your Terraform controller/Bastion.
 * `md5` enforces password authentication.
 
 ---
